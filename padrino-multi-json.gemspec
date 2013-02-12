@@ -1,16 +1,16 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "padrino-json/version"
+require "padrino-multi-json/version"
 
 Gem::Specification.new do |s|
-  s.name        = 'padrino-json'
+  s.name        = 'padrino-multi-json'
   s.version     = PadrinoJson::VERSION
   s.date        = '2013-02-11'
   s.summary     = "Simplified way to render json strings in padrino apps"
   s.description = "Simplified way to render json strings in padrino apps"
   s.authors     = ["Sumeet Singh"]
   s.email       = 'ortuna@gmail.com'
-  s.homepage    = 'http://rubygems.org/gems/padrino-json'
+  s.homepage    = 'http://rubygems.org/gems/padrino-multi-json'
 
   s.rubyforge_project = "padrino-contrib"
 
