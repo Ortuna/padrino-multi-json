@@ -42,6 +42,6 @@ PLATFORMS
 
 DEPENDENCIES
   multi_json
-  padrino-core
+  padrino-core (>= 0.10.7)
   rake
   rspec

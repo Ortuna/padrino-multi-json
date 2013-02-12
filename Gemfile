@@ -1,7 +1,7 @@
 source :rubygems
 
 gem 'multi_json'
-gem 'padrino-core'
+gem 'padrino-core', ">= 0.10.7"
 
 group :test do
   gem 'rspec'
