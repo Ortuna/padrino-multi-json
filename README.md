@@ -12,12 +12,19 @@ gem 'padrino-multi-json'
 
 ##Usage
 ````Ruby
-MySampleApp.controllers  do  
-  get :index do
-    json :foo => 'bar'
+class JsonExample < Padrino::Application
+  register Padrino::Rendering
+  register Padrino::Mailer
+  register Padrino::Helpers
+
+  enable :sessions
+  register Padrino::MultiJson
+
+  get '/' do 
+    json :foo => "bar"
   end
 end
 
 ````
 
-will render the string {"foo":"bar"}
+will render the string {"foo":"bar"} at the / URI
