@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = 'ortuna@gmail.com'
   s.homepage    = 'http://rubygems.org/gems/padrino-multi-json'
 
-  s.rubyforge_project = "padrino-contrib"
+  s.rubyforge_project = "padrino-multi-json"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
